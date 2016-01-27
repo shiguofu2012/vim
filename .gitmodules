@@ -1,3 +1,27 @@
 [submodule "pep8"]
     path = .vim/bundle/pep8
     url = https://github.com/vim-scripts/pep8.git
+[submodule "ctrlp"]
+    path = .vim/bundle/ctrlp.vim
+    url = https://github.com/kien/ctrlp.vim.git
+[submodule "nerdtree"]
+    path = .vim/bundle/nerdtree
+    url = https://github.com/scrooloose/nerdtree.git
+[submodule "minibufexpl"]
+    path = .vim/bundle/minibufexpl.vim
+    url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "syntastic"]
+    path = .vim/bundle/syntastic
+    url = https://github.com/vim-scripts/syntastic.git
+[submodule "taglist"]
+    path = .vim/bundle/taglist.vim
+    url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "nerd-commenter"]
+    path = .vim/bundle/The-NERD-Commenter
+    url = https://github.com/vim-scripts/The-NERD-Commenter.git
+[submodule "vundle"]
+    path = .vim/bundle/vundle
+    url = https://github.com/gmarik/vundle.git 
+[submodule "vim-powerline"]
+    path = .vim/bundle/vim-powerline
+    url = https://github.com/Lokaltog/vim-powerline.git

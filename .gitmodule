@@ -1,3 +1,0 @@
-[submodule "pep8"]
-    path = .vim/bundle/pep8
-    url = https://github.com/vim-scripts/pep8.git
