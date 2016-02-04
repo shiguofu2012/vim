@@ -61,6 +61,8 @@ let g:syntastic_check_on_wq = 0
 Bundle "pep8"
 let g:syntastic_python_checkers=['pep8']
 
+map <leader>s :w<cr>
+map <leader>q :q<cr>
 "Bundle "winmanager"
 "let g:winManagerWindownLayout='FileExplorer|TagList'
 autocmd filetype python map <buffer> <F6> :w<cr>:!python %<cr>
