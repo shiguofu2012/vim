@@ -31,6 +31,8 @@ nmap <F7> :NERDTreeClose<cr>
 Bundle "The-NERD-Commenter"
 Bundle "kien/ctrlp.vim"
 
+Bundle "pyflakes"
+
 Bundle "Lokaltog/vim-powerline"
 set laststatus=2
 set t_Co=256
@@ -65,8 +67,9 @@ map <leader>s :w<cr>
 map <leader>q :q<cr>
 "Bundle "winmanager"
 "let g:winManagerWindownLayout='FileExplorer|TagList'
+filetype plugin indent on
 autocmd filetype python map <buffer> <F6> :w<cr>:!python %<cr>
 "ddpe to test environment.
 map <leader>dt :!ddep test weixin-console<cr>
 map <leader>tst :!ddep pre-released admin<cr>
-map <leader>fp :!cd DuoBaoConsole/deploy && fab pre_release deploy<cr>
+map <leader>fp :!cd DuoBaoConsole/deploy && fab test deploy<cr>
